@@ -1,8 +1,9 @@
+import unittest
 
 from selenium.webdriver.firefox.webdriver import WebDriver
-from selenium.webdriver.common.action_chains import ActionChains
-import time, unittest
-from Group import Group
+
+from model.Group import Group
+
 
 def is_alert_present(wd):
     try:
