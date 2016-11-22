@@ -2,7 +2,7 @@ import unittest
 
 from selenium.webdriver.firefox.webdriver import WebDriver
 
-from model.Group import Group
+from model.Groupc import Group
 
 
 def is_alert_present(wd):
