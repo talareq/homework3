@@ -1,4 +1,4 @@
-from model.group import Group
+from model.formfiller import Group
 
 def test_add_group(app):
     app.group.create(Group(name="wada", header="\\65", footer="afsdcas"))
