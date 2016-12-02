@@ -6,6 +6,8 @@ class ContactHelper:
 
     def add_new_contact(self, contact):
         wd = self.app.wd
+        if not len(wd.find_elements_by_name("searchstring")) > 0:
+            self.app.open_home_page()
         # add mew contact
         wd.find_element_by_link_text("add new").click()
         self.fill_contact_form(contact)
@@ -15,6 +17,8 @@ class ContactHelper:
 
     def delete_first_contact(self):
         wd = self.app.wd
+        if not len(wd.find_elements_by_name("searchstring")) > 0:
+            self.app.open_home_page()
         #select first contact
         wd.find_element_by_name("selected[]").click()
         #submit deletion
@@ -23,22 +27,16 @@ class ContactHelper:
 
     def modify_first_contact(self, contact):
         wd = self.app.wd
+        if not len(wd.find_elements_by_name("searchstring")) > 0:
+            self.app.open_home_page()
         #click edit button on first contact
         wd.find_element_by_xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img").click()
-        #edit name and lastname
-        wd.find_element_by_name("firstname").click()
-        wd.find_element_by_name("firstname").clear()
-        # enter first name
-        wd.find_element_by_name("firstname").send_keys(contact.firstname)
-        wd.find_element_by_name("middlename").click()
-        wd.find_element_by_name("lastname").click()
-        wd.find_element_by_name("lastname").clear()
-        # enter surname
-        wd.find_element_by_name("lastname").send_keys(contact.lastname)
+        self.fill_contact_form(contact)
         #accept changes
         wd.find_element_by_xpath("//div[@id='content']/form[1]/input[22]").click()
-        wd.find_element_by_name("searchstring").click()
-        wd.find_element_by_name("searchstring").send_keys("\\9")
+
+
+
 
     def count(self):
         wd = self.app.wd
@@ -56,3 +54,4 @@ class ContactHelper:
             wd.find_element_by_name(field_name).click()
             wd.find_element_by_name(field_name).clear()
             wd.find_element_by_name(field_name).send_keys(text)
+
