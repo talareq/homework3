@@ -5,12 +5,12 @@ from random import randrange
 #    app.group.modify_group(Group(name="dupa", header="\\dd", footer="dup"))
 
 
-def test_modify_group_name(app):
+def test_modify_group_name(app, json_groups):
     if app.group.count() == 0:
         app.group.create(Group(name="test"))
     old_groups = app.group.get_group_list()
     index = randrange(len(old_groups))
-    group = Group(name="New Group")
+    group = json_groups
     group.id = old_groups[index].id
     app.group.modify_group_by_index(index, group)
     assert len(old_groups) == app.group.count()
