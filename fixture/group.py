@@ -66,14 +66,14 @@ class GroupHelper:
         wd = self.app.wd
         self.modify_group_by_index(0)
 
-    def modify_group_by_index(self, index, new_group_data):
+    def modify_group_by_index(self, index, group):
         wd = self.app.wd
         self.open_groups_page()
         self.select_group_by_index(index)
         # open modification form
         wd.find_element_by_name("edit").click()
         # fill group form
-        self.fill_group_form(new_group_data)
+        self.fill_group_form(group)
         # submit changes
         wd.find_element_by_name("update").click()
 
@@ -101,3 +101,29 @@ class GroupHelper:
                 self.group_chache.append(Group(name=text, id=id))
 
         return list(self.group_chache)
+
+
+    def delete_group_by_id(self, id):
+        wd = self.app.wd
+        self.open_groups_page()
+        self.select_group_by_id(id)
+        # submit deletion
+        wd.find_element_by_name("delete").click()
+        self.open_groups_page()
+        self.group_cache = None
+
+    def select_group_by_id(self, id):
+        wd = self.app.wd
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
+
+
+    def modify_group_by_id(self, id, group):
+        wd = self.app.wd
+        self.open_groups_page()
+        self.select_group_by_id(id)
+        # open modification form
+        wd.find_element_by_name("edit").click()
+        # fill group form
+        self.fill_group_form(group)
+        # submit changes
+        wd.find_element_by_name("update").click()

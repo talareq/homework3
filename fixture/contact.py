@@ -146,3 +146,36 @@ class ContactHelper:
         mobilephone = re.search("M: (.*)", text).group(1)
         secondaryphone = re.search("P: (.*)", text).group(1)
         return Contact(homephone=homephone, mobilephone=mobilephone, workphone=workphone, secondaryphone=secondaryphone)
+
+
+    def delete_contact_by_id(self, id):
+        wd = self.app.wd
+        self.app.open_home_page()
+        # open deletion
+        row = wd.find_element_by_css_selector("input[value='%s']" % id)
+        cells = row.find_elements_by_tag_name("td")
+        cells[7].click()
+        # submit deletion
+        wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
+        wd.switch_to_alert().accept()
+        self.app.open_home_page()
+        self.group_cache = None
+
+
+    def select_contact_by_id(self, id):
+        wd = self.app.wd
+        row = wd.find_element_by_css_selector("input[value='%s']" % id)
+        return row
+
+
+    def modify_contact_by_id(self, id, contact):
+        wd = self.app.wd
+        self.app.open_home_page()
+        # open modification form
+        row = wd.find_element_by_css_selector("input[value='%s']" % id)
+        cells = row.find_elements_by_tag_name("td")
+        cells[6].click()
+        # fill group form
+        self.fill_contact_form(contact)
+        # submit changes
+        wd.find_element_by_name("update").click()
