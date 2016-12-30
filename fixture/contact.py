@@ -152,9 +152,7 @@ class ContactHelper:
         wd = self.app.wd
         self.app.open_home_page()
         # open deletion
-        row = wd.find_element_by_css_selector("input[value='%s']" % id)
-        cells = row.find_elements_by_tag_name("td")
-        cells[7].click()
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
         # submit deletion
         wd.find_element_by_xpath("//div[@id='content']/form[2]/div[2]/input").click()
         wd.switch_to_alert().accept()
@@ -172,9 +170,10 @@ class ContactHelper:
         wd = self.app.wd
         self.app.open_home_page()
         # open modification form
-        row = wd.find_element_by_css_selector("input[value='%s']" % id)
+        checkbox = wd.find_element_by_css_selector("input[value='%s']" % id)
+        row = checkbox.find_element_by_xpath("./../..")
         cells = row.find_elements_by_tag_name("td")
-        cells[6].click()
+        cells[7].click()
         # fill group form
         self.fill_contact_form(contact)
         # submit changes
