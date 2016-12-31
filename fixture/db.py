@@ -2,6 +2,7 @@ import mysql.connector
 from model.formfiller import Group
 from model.formfiller import Contact
 
+
 class Dbfixture:
 
     def __init__(self, host, name, user, password):
