@@ -14,8 +14,8 @@ def test_add_contact_to_group(app):
     contact = random.choice(old_contacts)
     old_groups = db.get_group_list()
     group = random.choice(old_groups)
-    app.contact.add_contact_to_group(contact.id, group)
+    app.contact.add_contact_to_group_by_id(contact.id, group)
     new_contacts = db.get_contact_list()
-    old_contacts.append()
+    old_contacts.append(contact)
     assert sorted(old_contacts, key=Contact.id_or_max) == sorted(new_contacts, key=Contact.id_or_max)
 

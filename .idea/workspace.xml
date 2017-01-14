@@ -25,18 +25,18 @@
       <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+            <state relative-caret-position="1015">
+              <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remove_contact_from_group.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="remove_contact_from_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/remove_contact_from_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="94" lean-forward="false" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+            <state relative-caret-position="289">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -55,18 +55,18 @@
       <file leaf-file-name="111" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/111">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="87" />
+            <state relative-caret-position="383">
+              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_contact_to_group.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_contact_to_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/add_contact_to_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -149,8 +149,8 @@
         <option value="$PROJECT_DIR$/fixture/orm.py" />
         <option value="$PROJECT_DIR$/111" />
         <option value="$PROJECT_DIR$/test/add_contact_to_group.py" />
-        <option value="$PROJECT_DIR$/test/remove_contact_from_group.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
+        <option value="$PROJECT_DIR$/test/remove_contact_from_group.py" />
       </list>
     </option>
   </component>
@@ -570,34 +570,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 05m 55s.xml">
+    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 49m 56s.xml">
       <configuration name="py.test in add_contact_to_group.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 10m 11s.xml">
-      <configuration name="py.test in add_contact_to_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 13m 16s.xml">
-      <configuration name="py.test in add_contact_to_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 15m 29s.xml">
-      <configuration name="py.test in add_contact_to_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_add_contact_to_group_py - 2017.01.14 at 16h 15m 42s.xml">
-      <configuration name="py.test in add_contact_to_group.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 12m 29s.xml">
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 50m 06s.xml">
       <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 12m 51s.xml">
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 50m 46s.xml">
       <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 13m 04s.xml">
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 51m 40s.xml">
       <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 16m 58s.xml">
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 51m 59s.xml">
       <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 16h 17m 12s.xml">
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 17h 00m 12s.xml">
+      <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 17h 00m 37s.xml">
+      <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 17h 00m 48s.xml">
+      <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 17h 02m 26s.xml">
+      <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_remove_contact_from_group_py - 2017.01.14 at 17h 02m 42s.xml">
       <configuration name="py.test in remove_contact_from_group.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -614,7 +614,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39742213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39742213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -637,13 +637,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/remove_contact_from_group.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -654,7 +647,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -937,42 +930,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="292" column="0" lean-forward="false" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/111">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/remove_contact_from_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="94" lean-forward="false" selection-start-line="16" selection-start-column="94" selection-end-line="16" selection-end-column="94" />
+        <state relative-caret-position="383">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/add_contact_to_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="751" column="0" lean-forward="false" selection-start-line="751" selection-start-column="0" selection-end-line="751" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/remove_contact_from_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
