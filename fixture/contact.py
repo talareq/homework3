@@ -180,14 +180,17 @@ class ContactHelper:
         wd.find_element_by_name("update").click()
 
 
-    def add_contact_to_group(self, contact, id):
+    def add_contact_to_group(self, id, group):
         wd = self.app.wd
         if not len(wd.find_elements_by_name("searchstring")) > 0:
             self.app.open_home_page()
         # add mew contact
-        wd.find_element_by_link_text("add new").click()
-        self.fill_contact_form(contact)
-        wd.find_element_by_xpath("//div[@id='content']/form/select[5]//option['%s']"% id).click()
-        # accept
-        wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
+        wd.find_element_by_css_selector("input[value='%s']" % id).click()
+        number=group.id
+        wd.find_element_by_xpath("//div[@class='right']/select///option[@value='%s']"% number).click()
+        wd.find_element_by_name("add").click()
+        self.app.open_home_page()
         self.contact_cache = None
+
+
+

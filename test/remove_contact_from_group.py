@@ -14,7 +14,7 @@ def test_delete_random_contact(app):
     old_groups = db.get_group_list()
     group = random.choice(old_groups)
     if len(db.get_contacts_in_group(group)) == 0:
-        app.contact.add_contact_to_group(Contact(firstname="tester", lastname="tester"), group.id)
+        app.contact.add_contact_to_group(Contact(firstname="tester", lastname="tester"), group)
     old_contacts = db.get_contacts_in_group(group)
     contact = random.choice(old_contacts)
     app.contact.delete_contact_by_id(contact.id)
