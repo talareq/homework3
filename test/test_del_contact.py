@@ -10,3 +10,4 @@ def test_delete_random_contact(app, db):
     new_contacts = db.get_contact_list()
     old_contacts.remove(contact)
     assert old_contacts == new_contacts
+
