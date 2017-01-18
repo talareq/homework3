@@ -35,7 +35,7 @@ class Dbfixture:
             for row in cursor:
                 (id, firstname, lastname, home, mobile, work, fax, email, email2, address) = row
                 list.append(Contact
-                            (id=str(id), firstname=firstname, lastname=lastname, homephone=home, mobilephone=mobile, workphone=work, secondaryphone = fax, email=email, email2=email2, address=address))
+                            (firstname=firstname, lastname=lastname, id=str(id), homephone=home, mobilephone=mobile, workphone=work, secondaryphone = fax, email=email, email2=email2, address=address))
         finally:
             cursor.close()
         return list
