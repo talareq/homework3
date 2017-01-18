@@ -19,10 +19,10 @@ def test_delete_random_contact(app):
         app.contact.add_contact_to_group(Contact(firstname="tester", lastname="tester"), group)
     old_contacts = db.get_contacts_in_group(group)
     removed_contacts = db.get_contacts_not_in_group(group)
-    if removed_contacts.id ==old_contacts.id :
+    if sorted(old_contacts, key=Group.id_or_max) ==sorted(removed_contacts, key=Group.id_or_max) :
         old_contacts.remove(removed_contacts)
+    return old_contacts
     contact = random.choice(old_contacts)
     app.contact.delete_contact_by_id(contact.id)
-    new_contacts = db.get_contacts_in_group(group)
-    old_contacts.remove(contact)
+    new_contacts = old_contacts.remove(contact)
     assert old_contacts == new_contacts
