@@ -33,9 +33,9 @@ class Dbfixture:
         try:
             cursor.execute("select id, firstname, lastname, address, home, mobile, work, fax, email, email2 from addressbook where deprecated = '0000-00-00 00:00:00'")
             for row in cursor:
-                (id, firstname, lastname, address, home, mobile, work, fax, email, email2) = row
+                (id, firstname, lastname, address, home, mobile, work, phone2, email, email2 ) = row
                 list.append(Contact
-                            (firstname=firstname, lastname=lastname, id=str(id), homephone=home, mobilephone=mobile, workphone=work, secondaryphone = fax, email=email, email2=email2, address=address))
+                            (firstname=firstname, lastname=lastname, id=str(id), homephone=home, mobilephone=mobile, workphone=work, secondaryphone = phone2, email=email, email2=email2, address=address))
         finally:
             cursor.close()
         return list
