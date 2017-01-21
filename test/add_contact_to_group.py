@@ -21,7 +21,7 @@ def test_add_contact_to_group(app):
         contact = random.choice(contact_list)
         old_groups = db.get_group_list()
         group = random.choice(old_groups)
-        return contact, group
+
     old_contacts = db.get_contacts_in_group(group)
     app.contact.add_contact_to_group_by_id(contact.id, group)
     new_contacts = db.get_contacts_in_group(group)

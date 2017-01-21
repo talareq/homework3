@@ -207,3 +207,8 @@ class ContactHelper:
         self.contact_cache = None
 
 
+    def check_if_list_contains_removed_contacts(self, old_contacts, removed_contacts):
+        if sorted(removed_contacts, key=Contact.id_or_max) in sorted(old_contacts, key=Contact.id_or_max):
+            old_contacts.remove(removed_contacts)
+        return old_contacts
+
