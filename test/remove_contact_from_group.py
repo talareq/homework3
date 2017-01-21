@@ -15,11 +15,11 @@ def test_delete_random_contact(app):
         app.group.create(Group(name="test"))
     old_groups = db.get_group_list()
     group = random.choice(old_groups)
-    if db.get_contacts_in_group(group) == 0:
+    if len(db.get_contacts_in_group(group)) == 0:
         app.contact.add_contact_to_group(Contact(firstname="tester", lastname="tester"), group)
     old_contacts = db.get_contacts_in_group(group)
     removed_contacts = db.get_contacts_not_in_group(group)
-    old_contacts.remove(sorted(removed_contacts,key=Group.id_or_max))
+    old_contacts.remove(removed_contacts)
     contact = random.choice(old_contacts)
     app.contact.delete_contact_by_id(contact.id)
     new_contacts = old_contacts.remove(contact)
