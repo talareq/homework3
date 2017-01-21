@@ -6,13 +6,13 @@ import random
 def contact_list(db):
     return db.get_contact_list()
 
-@given('a contact with <name> and <lastname>')
-def new_contact(name, lastname):
-    return Contact(name=name, lastname=lastname)
+@given('a contact with <firstname> and <lastname>')
+def new_contact(firstname, lastname):
+    return Contact(firstname=firstname, lastname=lastname)
 
 @when('I add a new contact to the list')
 def add_new_contact(app, new_contact):
-    app.contact.create(new_contact)
+    app.contact.add_new_contact(new_contact)
 
 @then('the new contact list is equal to the old list with the added contact')
 def verify_group_added(db, contact_list, new_contact):
@@ -25,7 +25,7 @@ def verify_group_added(db, contact_list, new_contact):
 @given('a non-empty contact list')
 def non_empty_contact_list(db, app):
     if len(db.get_contact_list()) == 0:
-        app.group.create(Contact(name="some name", lastname="lastname"))
+        app.contact.add_new_contact(Contact(firstname="some name", lastname="lastname"))
     return db.get_contact_list()
 
 @given('a random contact from the list')
@@ -55,16 +55,16 @@ def verify_contact_deleted(db, non_empty_contact_list, random_contact, app, chec
 @given('a non-empty contact list')
 def non_empty_contact_list(db, app):
     if len(db.get_contact_list()) == 0:
-        app.group.create(Contact(name="some name", lastname="lastname"))
+        app.contact.add_new_contact(Contact(firstname="some name", lastname="lastname"))
     return db.get_contact_list()
 
 @given('a random contact from the list')
 def random_contact(non_empty_contact_list):
     return random.choice(non_empty_contact_list)
 
-@given('a contact with <name> and <lastname>')
-def new_contact(name, lastname):
-    return Contact(name=name, lastname=lastname)
+@given('a contact with <firstname> and <lastname>')
+def new_contact(firstname, lastname):
+    return Contact(firstname=firstname, lastname=lastname)
 
 
 @when('I modify the contact from the list')

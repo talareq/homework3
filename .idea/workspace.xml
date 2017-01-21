@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fd02cda-3959-406e-8d02-77ba78b961a6" name="Default" comment="" />
+    <list default="true" id="9fd02cda-3959-406e-8d02-77ba78b961a6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/contact_scenarios.py" afterPath="$PROJECT_DIR$/bdd/contact_scenarios.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/contact_steps.py" afterPath="$PROJECT_DIR$/bdd/contact_steps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/contacts.feature" afterPath="$PROJECT_DIR$/bdd/contacts.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd/groups_steps.py" afterPath="$PROJECT_DIR$/bdd/groups_steps.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/remove_contact_from_group.py" afterPath="$PROJECT_DIR$/test/remove_contact_from_group.py" />
+    </list>
     <ignored path="homework3.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +29,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="groups_steps.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bdd/groups_steps.py">
+      <file leaf-file-name="contact_scenarios.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd/contact_scenarios.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/contact.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_steps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -34,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="groups.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bdd/groups.feature">
+      <file leaf-file-name="contacts.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -102,14 +131,14 @@
         <option value="$PROJECT_DIR$/generator/contact.py" />
         <option value="$PROJECT_DIR$/fixture/contact.py" />
         <option value="$PROJECT_DIR$/test/test_add_group.py" />
-        <option value="$PROJECT_DIR$/test/remove_contact_from_group.py" />
         <option value="$PROJECT_DIR$/../python_training_mantis/test/delete_project.py" />
         <option value="$PROJECT_DIR$/bdd/group_scenarios.py" />
+        <option value="$PROJECT_DIR$/test/remove_contact_from_group.py" />
+        <option value="$PROJECT_DIR$/bdd/groups_steps.py" />
         <option value="$PROJECT_DIR$/bdd/groups.feature" />
+        <option value="$PROJECT_DIR$/bdd/contact_steps.py" />
         <option value="$PROJECT_DIR$/bdd/contact_scenarios.py" />
         <option value="$PROJECT_DIR$/bdd/contacts.feature" />
-        <option value="$PROJECT_DIR$/bdd/contact_steps.py" />
-        <option value="$PROJECT_DIR$/bdd/groups_steps.py" />
       </list>
     </option>
   </component>
@@ -154,7 +183,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +299,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -548,8 +577,8 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in contact_scenarios.py" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in group_scenarios.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in remove_contact_from_group.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in remove_contact_from_group.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_add_group.py" />
         <item index="4" class="java.lang.String" itemvalue="Python.delete_project" />
       </list>
     </recent_temporary>
@@ -571,39 +600,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 17m 39s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 33m 03s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 18m 20s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 33m 24s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 19m 15s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 34m 05s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 20m 53s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 35m 20s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 21m 42s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 36m 10s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 30m 02s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 37m 46s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 33m 12s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 38m 10s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 33m 42s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 38m 46s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 34m 52s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 39m 32s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 12h 39m 40s.xml">
+    <history-entry file="py_test_in_contact_scenarios_py - 2017.01.21 at 17h 40m 56s.xml">
       <configuration name="py.test in contact_scenarios.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1040" extended-state="6" />
+    <frame x="1912" y="-8" width="1296" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -668,6 +697,11 @@
           <line>11</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/remove_contact_from_group.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -679,7 +713,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="132" />
+      <option name="time" value="137" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -948,15 +982,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/remove_contact_from_group.py">
+    <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../python_training_mantis/test/delete_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_del_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_mod_contact.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -964,9 +1020,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/remove_contact_from_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bdd/groups.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,52 +1050,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_contact.py">
+    <entry file="file://$PROJECT_DIR$/bdd/groups_steps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python_training_mantis/test/delete_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_del_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/contact.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="49" />
+        <state relative-caret-position="136">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_mod_contact.py">
+    <entry file="file://$PROJECT_DIR$/bdd/contact_scenarios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bdd/contact_steps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="74" column="54" lean-forward="false" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
+        <state relative-caret-position="399">
+          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -1034,37 +1090,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bdd/contacts.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/contact_scenarios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/groups.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bdd/groups_steps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

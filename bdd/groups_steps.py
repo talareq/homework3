@@ -2,7 +2,7 @@ from pytest_bdd import given, when, then
 from model.formfiller import Group
 import random
 
-@given('a group list')
+@given('a group_list')
 def group_list(db):
     return db.get_group_list()
 

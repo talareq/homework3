@@ -19,7 +19,12 @@ def test_delete_random_contact(app):
         app.contact.add_contact_to_group(Contact(firstname="tester", lastname="tester"), group)
     old_contacts = db.get_contacts_in_group(group)
     removed_contacts = db.get_contacts_not_in_group(group)
-    old_contacts.remove(removed_contacts)
+    def rem_con(old_contacts):
+        if old_contacts in removed_contacts:
+            return True
+        else:
+            return False
+    filter(rem_con, old_contacts )
     contact = random.choice(old_contacts)
     app.contact.delete_contact_by_id(contact.id)
     new_contacts = old_contacts.remove(contact)
