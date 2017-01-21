@@ -1,0 +1,89 @@
+{
+  "uid" : "590040ae64c336f",
+  "name" : "test_add_group[None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju]",
+  "title" : "Test add group [None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju]",
+  "time" : {
+    "start" : 1485035035574,
+    "stop" : 1485035036324,
+    "duration" : 750
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "93163128407534e5",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ {
+    "name" : "Given a group_list",
+    "title" : "Given a group_list",
+    "time" : {
+      "start" : 1485035035652,
+      "stop" : 1485035035655,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I add a new group None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju to the list",
+    "title" : "When I add a new group None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju to the list",
+    "time" : {
+      "start" : 1485035035655,
+      "stop" : 1485035036321,
+      "duration" : 666
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the new group list is equal to the old list with the added group",
+    "title" : "Then the new group list is equal to the old list with the added group",
+    "time" : {
+      "start" : 1485035036321,
+      "stop" : 1485035036323,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  }, {
+    "name" : "thread",
+    "value" : "11436-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "g-Komputer"
+  } ],
+  "parameters" : [ ]
+}

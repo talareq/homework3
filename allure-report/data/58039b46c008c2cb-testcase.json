@@ -1,0 +1,44 @@
+{
+  "uid" : "58039b46c008c2cb",
+  "name" : "test_add_group[None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju]",
+  "title" : "Test add group [None:namebNv:header1LvC boEbddvf kTjzR:footervU Kju]",
+  "time" : {
+    "start" : 1485033974798,
+    "stop" : 1485033975592,
+    "duration" : 794
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c3470cba539b674a",
+    "name" : "test.test_add_group",
+    "title" : "Test add group"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "7448-MainThread"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "test.test_add_group"
+  }, {
+    "name" : "host",
+    "value" : "g-Komputer"
+  } ],
+  "parameters" : [ ]
+}
