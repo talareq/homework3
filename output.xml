@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20170122 17:19:34.921" generator="Robot 2.9 (Python 3.5.2 on win32)">
-<suite id="s1" source="c:\Devel\homework3\rf\group_scenarios.robot" name="Group Scenarios">
-<test id="s1-t1" name="Add New group">
-<kw name="Create Group">
-<arguments>
-<arg>name1</arg>
-<arg>header1</arg>
-<arg>footer1</arg>
-</arguments>
-<msg timestamp="20170122 17:19:34.960" level="FAIL">No keyword with name 'Create Group' found.</msg>
-<status endtime="20170122 17:19:34.960" starttime="20170122 17:19:34.960" status="FAIL"></status>
+<robot generator="Robot 2.9 (Python 3.5.2 on win32)" generated="20170122 17:52:07.590">
+<suite source="c:\Devel\homework3\rf\group_scenarios.robot" name="Group Scenarios" id="s1">
+<kw name="Init Fixtures" type="setup" library="rf.AddressBook">
+<status status="PASS" endtime="20170122 17:52:12.190" starttime="20170122 17:52:07.720"></status>
 </kw>
-<status endtime="20170122 17:19:34.960" starttime="20170122 17:19:34.957" critical="yes" status="FAIL">No keyword with name 'Create Group' found.</status>
+<test name="Add New group" id="s1-t1">
+<kw name="$(old_list)=">
+<arguments>
+<arg>Get Group List</arg>
+</arguments>
+<msg timestamp="20170122 17:52:12.194" level="FAIL">No keyword with name '$(old_list)=' found.</msg>
+<status status="FAIL" endtime="20170122 17:52:12.194" starttime="20170122 17:52:12.194"></status>
+</kw>
+<status status="FAIL" starttime="20170122 17:52:12.190" endtime="20170122 17:52:12.195" critical="yes">No keyword with name '$(old_list)=' found.</status>
 </test>
-<status endtime="20170122 17:19:34.961" starttime="20170122 17:19:34.922" status="FAIL"></status>
+<kw name="Destroy Fixtures" type="teardown" library="rf.AddressBook">
+<status status="PASS" endtime="20170122 17:52:15.215" starttime="20170122 17:52:12.196"></status>
+</kw>
+<status status="FAIL" endtime="20170122 17:52:15.216" starttime="20170122 17:52:07.591"></status>
 </suite>
 <statistics>
 <total>
@@ -23,12 +27,9 @@
 <tag>
 </tag>
 <suite>
-<stat pass="0" name="Group Scenarios" fail="1" id="s1">Group Scenarios</stat>
+<stat pass="0" fail="1" name="Group Scenarios" id="s1">Group Scenarios</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20170122 17:19:34.912" level="ERROR">Error in file 'c:\Devel\homework3\rf\group_scenarios.robot': Non-existing setting 'Library rf.AddressBook'.</msg>
-<msg timestamp="20170122 17:19:34.912" level="ERROR">Error in file 'c:\Devel\homework3\rf\group_scenarios.robot': Non-existing setting 'Suite Setup Init Fixtures'.</msg>
-<msg timestamp="20170122 17:19:34.913" level="ERROR">Error in file 'c:\Devel\homework3\rf\group_scenarios.robot': Non-existing setting 'Suite Teardown Destroy Fixtures'.</msg>
 </errors>
 </robot>
