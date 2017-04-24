@@ -22,7 +22,7 @@ def load_config(file):
 @pytest.fixture
 def app(request):
     global fixture
-    browser = request.config.getoption("--browser")
+    browser = "firefox"
     web_config = load_config(request.config.getoption("--target"))["web"]
     if fixture is None or not fixture.is_valid():
         fixture = Application(browser=browser, base_url=web_config["baseUrl"])
@@ -55,7 +55,7 @@ def check_ui(request):
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", action="store", default="firefox")
+    parser.addoption("--browser", action="store", default="chrome")
     parser.addoption("--target", action="store", default="target.json")
     parser.addoption("--check_ui", action="store_true")
 

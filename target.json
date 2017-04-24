@@ -2,7 +2,8 @@
     "web": {
         "baseUrl": "http://localhost/addressbook/",
         "username": "admin",
-        "password": "secret"
+        "password": "secret",
+        "web": "firefox"
     },
     "db": {
         "host": "localhost",

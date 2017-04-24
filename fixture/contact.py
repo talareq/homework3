@@ -12,11 +12,13 @@ class ContactHelper:
         if not len(wd.find_elements_by_name("searchstring")) > 0:
             self.app.open_home_page()
         # add mew contact
-        wd.find_element_by_link_text("add new").click()
+        wd.find_element_by_xpath("//div[1]/div[4]/form/input[3]").click()
         self.fill_contact_form(contact)
         # accept
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
         self.contact_cache = None
+        if not len(wd.find_elements_by_name("searchstring")) > 0:
+            self.app.open_home_page()
 
     def delete_first_contact(self):
         wd = self.app.wd

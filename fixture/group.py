@@ -9,7 +9,7 @@ class GroupHelper:
         wd = self.app.wd
         self.open_groups_page()
         # init group creation
-        wd.find_element_by_name("new").click()
+        wd.find_element_by_xpath("//div/div[4]/form/input[1]").click()
         self.fill_group_form(group)
         # submit group creation
         wd.find_element_by_name("submit").click()
@@ -36,7 +36,7 @@ class GroupHelper:
     def open_groups_page(self):
         wd = self.app.wd
         if not (wd.current_url.endswith("/group.php") and len(wd.find_elements_by_name("new")) > 0):
-            wd.find_element_by_link_text("groups").click()
+            wd.find_element_by_xpath("//li[@class='admin']//a[.='grupy']").click()
 
     def modify_group(self, group):
         wd = self.app.wd
